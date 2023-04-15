@@ -51,6 +51,10 @@ function Run(){
             err.innerHTML = "Invalid username or Email-Id"
         }
     }
+    
+    if(div[1] != "gmail.com"){
+        err.innerHTML = "Invalid email-id"
+    }
 
     // checking dot symbol after @
     if(div[1].indexOf('.') == -1){
