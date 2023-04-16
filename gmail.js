@@ -52,6 +52,10 @@ function Run(){
         }
     }
 
+    // if(div[1] != "gmail.com"){
+    //     err.innerHTML = "Invalid email-id"
+    // }
+
     // checking dot symbol after @
     if(div[1].indexOf('.') == -1){
         err.innerHTML = "Invalid username or Email-Id"
@@ -73,7 +77,3 @@ function Run(){
 
 
 }
-
-// var x = "vishnuvardhanaa"
-// var y = x.indexOf('a')
-// console.log(y)
