@@ -51,6 +51,10 @@ function Run(){
             err.innerHTML = "Invalid username or Email-Id"
         }
     }
+    
+    if(div[1] != "gmail.com"){
+        err.innerHTML = "Invalid email-id"
+    }
 
     // if(div[1] != "gmail.com"){
     //     err.innerHTML = "Invalid email-id"
@@ -77,3 +81,10 @@ function Run(){
 
 
 }
+<<<<<<< HEAD
+=======
+
+// var x = "vishnuvardhanaa"
+// var y = x.indexOf('a')
+// console.log(y)
+>>>>>>> ebddec415492a53f1b6727d04c8272e500fd4563
